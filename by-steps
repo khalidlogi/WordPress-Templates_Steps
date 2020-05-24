@@ -1,0 +1,10 @@
+Fisrst: create 2 files: index.php and style.php
+
+//style.php => theme infos
+Theme Name: udemy 
+Author: Dex
+Author URI: https://udemy.net
+Description: The official website
+Tags: code, php, WordPress 
+Version: 1.0
+

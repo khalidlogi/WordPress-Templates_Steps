@@ -8,3 +8,7 @@ Description: The official website
 Tags: code, php, WordPress 
 Version: 1.0
 
+create two filles function.php and style.css
+function ju_enqueue(){
+wp_register_style( 'ju_bootstrap', get_template_directory_uri().'assets/styles/bootstrap.css');
+wp_enqueue_style( 'ju_bootstrap' );}

@@ -19,4 +19,7 @@ private function load_dependencies()
             $value = get_option($option, $default);
             $this->{$option} = $value;
         }
+
+error_log('$this->label_color: ' . print_r($this->label_color, true));
+
 ```

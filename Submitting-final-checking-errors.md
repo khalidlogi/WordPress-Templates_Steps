@@ -10,3 +10,5 @@ if (isset($_POST['id'])) {
     // Rest of your code...
 }
 
+### sanitize
+sanitize_text_field $_post['nonce']

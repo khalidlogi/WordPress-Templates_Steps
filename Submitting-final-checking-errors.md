@@ -12,3 +12,6 @@ if (isset($_POST['id'])) {
 
 ### sanitize
 sanitize_text_field $_post['nonce']
+
+## codesniffer
+https://github.com/PHPCSStandards/PHP_CodeSniffer/

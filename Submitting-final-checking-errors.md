@@ -18,4 +18,11 @@ phpcs --version
 istall wordpess coding standard:
 composer global require wp-coding-standards/wpcs
 
+run error checks:
+phpcs --standard=WordPress .
+
+scan a file:
+phpcs --standard=WordPress path/to/your/file.php
+
+
 https://github.com/PHPCSStandards/PHP_CodeSniffer/

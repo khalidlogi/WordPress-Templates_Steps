@@ -1,2 +1,2 @@
 ### check all __ $ and escape all outputs 
-search fro printf echo sprintf  and make sure they are all escaped
+search fro printf echo sprintf __ , and make sure they are all escaped

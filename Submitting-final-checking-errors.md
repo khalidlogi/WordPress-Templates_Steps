@@ -14,4 +14,8 @@ if (isset($_POST['id'])) {
 sanitize_text_field $_post['nonce']
 
 ## codesniffer
+phpcs --version
+istall wordpess coding standard:
+composer global require wp-coding-standards/wpcs
+
 https://github.com/PHPCSStandards/PHP_CodeSniffer/

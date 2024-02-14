@@ -14,6 +14,11 @@ if (isset($_POST['id'])) {
 sanitize_text_field $_post['nonce']
 
 ## codesniffer
+
+## vs code:
+@id:editor.defaultFormatter @lang:php formatted
+instal phpc formatted
+
 phpcs --version
 istall wordpess coding standard:
 composer global require wp-coding-standards/wpcs

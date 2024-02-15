@@ -13,6 +13,10 @@ if (isset($_POST['id'])) {
 ### sanitize
 sanitize_text_field $_post['nonce']
 
+## escaping
+// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- XSS OK.
+
+
 ## codesniffer
 
 ## vs code:

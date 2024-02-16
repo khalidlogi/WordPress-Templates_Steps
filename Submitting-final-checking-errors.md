@@ -15,9 +15,12 @@ sanitize_text_field $_post['nonce']
 
 ## escaping
 // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- XSS OK.
+// phpcs:ignore WordPress.DB.DirectDatabaseQuery.NoCaching
+
 
 
 ## codesniffer
+phpcs --standard=WordPress --extensions=php C:\laragon\www\wp-content\plugins\adas\admin\class-adas-divi-KHwidget.php
 
 ## vs code:
 @id:editor.defaultFormatter @lang:php formatted

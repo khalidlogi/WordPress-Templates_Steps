@@ -17,6 +17,8 @@ sanitize_text_field $_post['nonce']
 // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- XSS OK.
 // phpcs:ignore WordPress.DB.DirectDatabaseQuery.NoCaching
 
+### ignore caching and direct: 		
+// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching		
 
 
 ## codesniffer

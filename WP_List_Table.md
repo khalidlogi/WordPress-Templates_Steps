@@ -34,4 +34,50 @@ protected function process_bulk_action() {
 			}
 		} */
 	}
+
+// PS to add links to the column create a function with name column_(and the name of the column)
+	protected function column_id( $item ) {
+
+		/*
+		$page         = wp_unslash( $_REQUEST['page'] );
+		$delete_nonce = wp_create_nonce( 'deletentry' );
+
+		// Build edit row action.
+		$edit_query_args = array(
+			'page'   => $page,
+			'action' => 'edit',
+			'id'     => $item['id'],
+
+		);
+
+		$actions['edit'] = sprintf(
+			'<a href="%1$s">%2$s</a>',
+			esc_url( wp_nonce_url( add_query_arg( $edit_query_args, 'admin.php' ), 'editentry_' . $item['id'] ) ),
+			_x( 'Edit', 'List table row action', 'wp-list-adas' )
+		);
+
+		// Build delete row action.
+		$delete_query_args = array(
+			'page'   => $page,
+			'action' => 'delete',
+			'id'     => $item['id'],
+		);
+
+		$actions['delete'] = sprintf(
+			'<a href="%1$s&delete_nonce=%2$s">%3$s</a>',
+			esc_url( add_query_arg( $delete_query_args, 'admin.php' ) ),
+			esc_attr( $delete_nonce ),
+			_x( 'Delete', 'List table row action', 'wp-list-adas' )
+		);
+
+		// Return the page_id contents.
+		return sprintf(
+			'%2$s <span style="color:silver;">entry</span>%3$s',
+			$item['page_id'],
+			$item['id'],
+			$this->row_actions( $actions )
+		);*/
+	}
+
+
 ```

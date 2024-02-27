@@ -1,5 +1,10 @@
 # Security
 
+### Sanitize
+```php
+//List of Ids:
+$ids = isset( $_REQUEST['id'] ) ? wp_parse_id_list( wp_unslash( $_REQUEST['id'] ) ) : array(); // WPCS: Input var ok.
+```
 ### nonce 
 ```php
 <input type="hidden" name="nonce" value="<?php echo wp_create_nonce('form-nonce') ?>" />     

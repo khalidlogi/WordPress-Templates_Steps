@@ -4,6 +4,10 @@
 ```php
 //List of Ids:
 $ids = isset( $_REQUEST['id'] ) ? wp_parse_id_list( wp_unslash( $_REQUEST['id'] ) ) : array(); // WPCS: Input var ok.
+
+//sanitize nonce
+sanitize_key( wp_unslash(
+
 ```
 ### nonce 
 ```php

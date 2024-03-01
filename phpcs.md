@@ -26,8 +26,7 @@ sanitize_text_field $_post['nonce']
 
 
 ## codesniffer
-phpcs --standard=WordPress --extensions=php C:\laragon\www\wp-content\plugins\adas\admin\class-adas-divi-KHwidget.php
-
+phpcs --standard=WordPress --extensions=php --ignore=vendor C:\laragon\www\wp-content\plugins\adas
 ## vs code:
 @id:editor.defaultFormatter @lang:php formatted
 instal phpc formatted

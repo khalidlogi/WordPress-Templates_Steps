@@ -46,7 +46,9 @@ https://github.com/PHPCSStandards/PHP_CodeSniffer/
 
 ## phpcomtability
 
+error stating that the "PHPCompatibility" coding standard is not installed in PHPCS
 composer global require "phpcompatibility/php-compatibility"
+
 phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 8.2
 
 

@@ -1,3 +1,6 @@
+## Download Poeedit
+https://drive.google.com/file/d/19aVlkBi50W3IYll3PqAInYvRQYyffPu9/view?usp=drive_link
+
 To create a class for internationalization (i18n) in your plugin, you can define a class that loads the text domain for your plugin. This ensures that your plugin is ready for translation. Here's how you can do it:
 
 ## Step 1: Create the i18n Class2. Add the following code to the new file:

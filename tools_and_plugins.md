@@ -1,0 +1,4 @@
+# Plugins
+  ## Debug :
+     -WP phpMyAdmin
+     

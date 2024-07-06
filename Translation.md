@@ -45,3 +45,12 @@ To make your plugin translatable, you need to provide translation files. These f
 Create a new directory named languages in the root of your plugin.
 Inside the languages directory, create translation files with the appropriate language codes (e.g., adas_quote_request-fr_FR.mo, adas_quote_request-de_DE.mo, etc.). These files should be generated using a tool like Poedit or the WordPress.org translation platform.
 By following these steps, you have set up the i18n functionality for your "Adas Quote for WC" plugin, making it ready for translation and allowing users around the world to use your plugin in their native languages.
+
+## Save the translation
+
+The typical file naming convention for translation files is: <language-code>.po
+For example, the French translation file would be named:fr_FR.po
+
+- Open a text editor (e.g., Notepad, Sublime Text, VS Code).
+- Copy the translation content you provided earlier.
+- Save the file with the name fr_FR.po 

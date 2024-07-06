@@ -53,4 +53,5 @@ For example, the French translation file would be named:fr_FR.po
 
 - Open a text editor (e.g., Notepad, Sublime Text, VS Code).
 - Copy the translation content you provided earlier.
-- Save the file with the name fr_FR.po 
+- Save the file with the name fr_FR.po  : "adas_quote_request-fr_FR.mo"
+"adas_quote_request-fr_FR.po"
